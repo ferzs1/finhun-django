@@ -3,4 +3,5 @@ from __future__ import unicode_literals
 
 from django.shortcuts import render
 
-# Create your views here.
+def entry_list(request):
+    return render(request, 'dict/entry_list.html', {})
